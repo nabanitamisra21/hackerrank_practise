@@ -26,8 +26,8 @@ public class input_output {
 
         for (int i = 0; i<3; i++)
         {
-            int myInt = sc.nextInt();
-            System.out.println(myInt);
+            System.out.println(sc.nextInt());
+
         }
         sc.close();
     }
