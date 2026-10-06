@@ -26,7 +26,7 @@ package com.nabanita.hackerrank.basics;
 import java.io.*;
 import java.util.*;
 public class OpFormatting {
-    public static void main(String args[])
+    public static void main(String [] args)
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("==============================");
