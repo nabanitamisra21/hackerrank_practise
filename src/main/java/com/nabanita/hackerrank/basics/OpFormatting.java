@@ -25,28 +25,28 @@ package com.nabanita.hackerrank.basics;
  */
 import java.io.*;
 import java.util.*;
-public class OpFormatting
-{
+public class OpFormatting {
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("==============================");
-        for (int i = 0; i < 3; i++)
-        {
-            String word = sc.next();
-            int num = sc.nextInt();
-            if (word.length() <= 10  && num <= 999)
+        for (int i = 0; i < 3; i++) {
             {
+                String word = sc.next();
+                int num = sc.nextInt();
+                if (word.length() <= 10 && num <= 999) {
                     System.out.printf("%-15s%03d%n", word, num);
-                }
-                else
-                {
+                } else {
                     System.out.println("invalid input");
                 }
             }
+        }
+
         System.out.println("==============================");
+        sc.close();
     }
 }
+
 
 
 
