@@ -1,5 +1,44 @@
 package com.nabanita.hackerrank.basics;
-
+/*
+ * HackerRank: Java Datatypes
+ *
+ * Problem:
+ * Given several integer values, determine which Java integer
+ * primitive data types can store each value.
+ *
+ * Integer data types:
+ * - byte  → 8-bit  signed integer
+ * - short → 16-bit signed integer
+ * - int   → 32-bit signed integer
+ * - long  → 64-bit signed integer
+ *
+ * Input:
+ * - First line: number of test cases T.
+ * - Next T lines: one integer n per line.
+ * - n can be very large or very small.
+ *
+ * Output:
+ * - For each n, print the data types that can store it,
+ *   ordered from smallest to largest:
+ *
+ *   n can be fitted in:
+ *   * byte
+ *   * short
+ *   * int
+ *   * long
+ *
+ * - If n cannot fit in any of the four types, print:
+ *
+ *   n can't be fitted anywhere.
+ *
+ * Concepts:
+ * - Primitive data types
+ * - Data type ranges
+ * - long
+ * - if / else
+ * - for loop
+ * - Exception handling (for very large input values)
+ */
 import java.util.*;
 import java.math.*;
 
